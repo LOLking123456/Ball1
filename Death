@@ -9,6 +9,8 @@ local UI = Material.Load({
      Theme = "Dark"
 })
 
+local main = UI.New({Title = "Main-Features"})
+
 main.Toggle({
     Text = "Dodge Ball (OP WITH AUTO PARRY)",
     Enabled = false,
